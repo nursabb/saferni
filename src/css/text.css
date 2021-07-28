@@ -1,0 +1,49 @@
+#myCarousel img {
+  height: 30%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#thumbSlider .carousel-inner {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+#thumbSlider .carousel-inner .row {
+  overflow: hidden;
+}
+#thumbSlider .carousel-inner .thumb:hover {
+  cursor: pointer;
+}
+#thumbSlider .carousel-inner .thumb.active img {
+  opacity: 1;
+}
+#thumbSlider .carousel-inner img {
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  opacity: 0.5;
+}
+#thumbSlider .carousel-inner img:hover {
+  opacity: 1;
+}
+
+.color2 .card .card-body {
+  background-color: #d6c8b8;
+}
+
+.color2 {
+  background-color: #c4d1e1;
+}
+
+.color .card .card-body {
+  background-color: #accdff;
+}
+
+.color {
+  background-color: #d1b5a3;
+}
+
+/*# sourceMappingURL=text.css.map */

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/html" src="{require('index.js')}"></script>
+    <title>سفرني</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="120">
+    <nav class="navbar navbar-expand-md fixed-top" id="navBar">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </span>
+            </button>
+
+            <a class="navbar-brand scroll" href="index.html">
+                <img src="images/logo.png" alt="logo" />
+                <h4 class="d-inline">سفرني</h4>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown" >
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">الخدمات </a>
+                        <ul class="dropdown-menu custom-dropdown-menu dropdown-menu-right" >
+                            <li>
+                                <a class="dropdown-item" href="#services">استقبال من المطار</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#services">حجز سكن</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#services">حجز سيارة </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#services">جولات سياحية</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#gallery">
+                             معرض الصور
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="contact.html">
+                           انشاء حساب
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+         <header>
+            <div class="container">
+                <div class="row">
+                    <div class=" col-12 ">
+                        <div class="text">
+                        <h1>شركة سفرني للسياحة و السفر</h1>
+                        <p>لشركة السياحية الأفضل في الوطن العربي، هدفنا مساعدتك وتيسير أمورك، لا تتردد بالتواصل معنا فنحن هنا لنساعدك على إيجاد كل ما تحتاج له. إن كنت تبحث عن سكن أو جولة سياحية لتقضي أفضل الأوقات فقد وجدت طلبك<br></p>
+                        <button onclick="location.href='#top';" class="btn btn-light btn-lg action-button" type="button"> تواصل معنا</button>
+                      </div>
+                    </div>
+               </div>
+            </div>
+        </header>
+   <section class="services" id="services">
+    <div class="title text-center">
+        <h2>
+            خدمات الشركة
+        </h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <div class="card text-center">
+                    <span class="section-icon">
+                    <i class="fas fa-taxi fa-7x" ></i></span>
+                    <div class="card-block">
+                        <h4 class="card-title">
+                           استقبال من المطار
+                        </h4>
+                        <p class="card-text">
+                            نقدم لكم خدمة الاستقبال من المطار وتوديعكم في المطار بحيث يكون مندوبنا متواجد دائمًا في خدمتكم أثناء وصولكم أو ذهابكم للمطار مع أفضل وسائل النقل.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card text-center">
+                    <span class="section-icon">
+                    <i class="fas fa-hotel fa-7x"></i></span>
+                    <div class="card-block">
+                        <h4 class="card-title">
+                             حجز سكن 
+                        </h4>
+                        <p class="card-text">
+                            نقدم لكم خدمة الحجوزات في أفضل الفنادق والشقق ذات الإطلالة الرائعة والقريبة من جميع
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card text-center">
+                    <span class="section-icon">
+                    <i class="fas fa-car fa-7x"></i></span>
+                    <div class="card-block">
+                        <h4 class="card-title">
+                           حجز سيارة 
+                        </h4>
+                        <p class="card-text">
+                            نقدم لكم خدمة حجز السيارات سواءً سيارات الأوتوماتيك أو السيارات العادي
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card text-center">
+                    <span class="section-icon">
+                    <i class="fas fa-globe-americas fa-7x"></i></span>
+                    <div class="card-block">
+                        <h4 class="card-title">
+                           جولات سياحية
+                        </h4>
+                        <p class="card-text">
+                            جولات سياحية خاصة مع أمهر السائقين كما نقدم جولات جماعية بأحدث الباصات مع أفضل المرشدين السياحيين الذين يُجيدون اللغة العربية ولإنجليزية.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="gallery" id="gallery">
+       <div class="container">
+           <h4>جولات السياحية</h4>
+           <div class="row card-content">
+               <div class="col-md-6 col-sm-12">
+                   <div class="card">
+                     <a href="egypt.html">
+                     <img src="images/egypt/0.png" class=" img-thumbnail" /></a>
+                 
+                  
+                      <div class="card-body">
+                      <p>رحلة الى مصر </p>
+                      </div>
+                  
+                  <div class="card-footer">
+                     <p> 500$</p>
+                  </div>
+                  <button onclick="location.href='egypt.html';" class="btn" type="submit">تفاصيل الرحلة</button>
+                </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <div class="card">
+                      <a href="turkey.html">
+                      <img src="images/turk/01.png" class=" img-thumbnail " /></a>
+                     
+                       <div class="card-body">
+                       <p>رحلة الى تركيا </p>
+                       </div>
+                       
+                     <div class="card-footer">
+                        <p> 300$</p>
+                    </div>
+                    <button onclick="location.href='turkey.html';" class="btn" type="submit">تفاصيل الرحلة</button>
+                 </div>
+                 </div>
+             </div>
+         </div>
+</section>
+<footer class="top" id="top">
+       <div class="container">
+           <div class="row">
+             <div class="col-md"> 
+                <div class="top-footer">
+                                  <h3>
+                                   تواصل معنا
+                                </h3>
+                           <ul class="list-unstyled">
+                               <li>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    لبنان , طرابلس
+                               </li>
+                                 <li>
+                                    <i class="fa fa-phone"id="phone" aria-hidden="true"></i>
+                                  71076172 961+
+                               </li>
+                                 <li>
+                                     <i class="fa fa-envelope" aria-hidden="true"></i>
+                                     email@saferni.com
+                               </li>
+                           </ul>
+               </div>
+            </div>
+               <div class="col-md">
+                   <div id="map" class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.691336844557!2d35.83397461481315!3d34.43459468050356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1521f75f7c7cb825%3A0x7b18c79c631f1e10!2sTripoli%20lebanon!5e0!3m2!1sen!2slb!4v1620958186547!5m2!1sen!2slb" padding-top="20" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+               </div>
+       </div>
+      <div class="end-footer text-center">
+               <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#" class="facebook">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="twitter">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="google">
+                                <i class="fab fa-google-plus-square"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="instagram">
+                                <i class="fab fa-instagram-square"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="mail">
+                                <i class="fas fa-envelope-square"></i>
+                            </a>
+                        </li>
+                       
+               </ul>
+          </div> 
+     </div> 
+</footer>
+</body>
+</html>

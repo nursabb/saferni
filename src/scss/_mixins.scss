@@ -1,0 +1,9 @@
+
+@mixin body1($mycolore) {
+    background-color: $mycolore;
+    
+}
+@mixin body2($mycolort) {
+    background-color: $mycolort;
+    
+}
